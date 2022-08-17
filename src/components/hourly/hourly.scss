@@ -1,0 +1,26 @@
+.hourly {
+    margin-bottom: 15px;
+    &-descr {
+        text-align: left;
+        font-size: 14px;
+        padding: 5px 5px 15px;
+        border-bottom: 1px solid #dddcff6b;
+    }
+    &-info {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        overflow: scroll;
+        &::-webkit-scrollbar {
+            height: 0;
+        }
+        &__day {
+            margin: 0 10px;
+        }
+        &__icon {
+            >img {
+                height: 40px;
+            }
+        }
+    }
+}
